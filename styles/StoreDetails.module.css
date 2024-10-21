@@ -1,0 +1,492 @@
+
+/* TabView*/
+.tab_view {
+  width: 100%;
+}
+
+.tab-view .ant-tabs-tab {
+  font-family: "Lexend";
+  font-size: 16px !important;
+}
+
+.tab-view .ant-tabs-nav {
+  background-color: #f4f6f8;
+  padding: 0px 20px 10px 20px;
+  border-radius: 8px;
+}
+
+.ant-tabs-top.tab-view .ant-tabs-nav {
+  margin: 20px 0px !important;
+}
+/*Reviews & Ratings*/
+.single_reviews_wrapper {
+  margin-bottom: 20px;
+}
+/* Shop Card*/
+
+.store_banner_wrapper {
+  position: relative;
+  height: 350px;
+}
+
+.store_logo img,
+.store_banner_wrapper img {
+  object-fit: cover;
+  object-position: center;
+}
+/* .store_banner_wrapper > div {
+  border-radius: 12px;
+  overflow: hidden;
+} */
+
+.store_logo {
+  position: absolute;
+  bottom: -80px;
+  left: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+}
+.store_service_staff_review {
+  text-align: end;
+}
+.store_service_staff_review ul {
+  margin: 20px 10px;
+  padding: 0;
+}
+.store_service_staff_review ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 30px;
+}
+.store_service_staff_review ul li:first-child {
+  padding-left: 0;
+  border-right: 2px solid #9a9595;
+}
+.store_service_staff_review ul li:last-child {
+  padding-right: 0;
+  border-left: 2px solid #9a9595;
+}
+.store_service_staff_review h4 {
+  font-size: 18px;
+  color: #276778f7;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.1;
+  text-align: center;
+}
+.store_service_staff_review h4 > span {
+  display: block;
+  color: #7a7676;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "Lexend";
+}
+.store_title,
+.store_location_time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.store_status {
+  width: fit-content;
+  padding: 4px 18px !important;
+  border-radius: 6px;
+  display: flex; 
+  justify-content: space-between
+
+}
+.store_title h2 {
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+}
+.store_title {
+  margin: 36px 0 8px;
+}
+.store_title h2 span:hover,
+.service_detail_title span:hover {
+  color: #276778f7;
+  cursor: pointer;
+}
+.store_title h2 span:hover svg,
+.service_detail_title h2 span:hover svg {
+  transform: scale(1.1);
+  color: #276778f7;
+}
+.store_title h2 svg,
+.service_detail_title svg {
+  transition: 0.3s linear;
+  font-size: 16px;
+}
+
+.store_title h2 span,
+.service_detail_title span {
+  color: #b7b7b7;
+  font-size: 14px;
+  margin-left: 4px;
+  transition: 0.3s linear;
+}
+.store_location_time h3 {
+  font-size: 12px;
+  color: #4eac56 !important;
+  cursor: pointer;
+  display: flex;
+}
+.store_location_time h3,
+.store_location_time h4,
+.store_contact {
+  color: #575050;
+  font-weight: 600;
+  margin: 0;
+}
+
+.store_location_time h4 {
+  font-size: 12px;
+}
+.store_time svg {
+  font-size: 18px;
+  color: #575050;
+  vertical-align: text-bottom;
+  margin-right: 2px;
+}
+.store_location a {
+  color: "#4EAC56";
+  font-weight: 600;
+}
+.store_contact {
+  font-weight: 500;
+  font-size: 13px;
+}
+.store_contact b {
+  font-weight: 600;
+}
+
+/* Service Card*/
+.service_card_wrapper {
+  padding: 12px;
+  transition: 0.2s all;
+  height: 100%;
+}
+.service_card_wrapper:hover {
+  transform: translate(0px, -3px) scale(1.01);
+  cursor: pointer;
+}
+
+.service_title {
+  margin: 14px 0 5px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.service_title h2 {
+  font-size: 15px;
+  color: #322f2f;
+  font-weight: 500;
+  margin: 0 8px 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.service_des {
+  color: #575050;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 0px;
+}
+.service_price {
+  color: #4eac56;
+  margin: 0;
+  font-size: 14px !important;
+}
+.service_price del {
+  color: #808380;
+  font-weight: 500;
+}
+.service_actions {
+  margin: 0;
+  padding: 0;
+}
+.service_actions li {
+  display: inline-block;
+  margin: 0 6px;
+}
+.service_actions img {
+  transition: 0.3s all;
+}
+.service_actions img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.service_img img {
+  object-fit: cover;
+}
+.service_img {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.service_img > .service_discount_tag {
+  position: absolute;
+  z-index: 999;
+  width: auto;
+  padding: 2px 14px !important;
+  left: 6px;
+  margin: 0;
+  top: 6px;
+  border-radius: 4px;
+}
+/* Service Details*/
+.service_details_des {
+  color: #575050;
+}
+.service_detail_img_wrapper {
+  height: 300px;
+  width: 250;
+  float: left;
+}
+.service_detail_img {
+  width: 245px;
+  height: 245px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.service_detail_discount_tag {
+  left: 15px !important;
+  top: 13px !important;
+}
+.service_detail_action {
+  position: absolute;
+  z-index: 999;
+  right: 6px;
+  top: 10px;
+}
+.service_detail_title h2 {
+  color: #000;
+  font-size: 14px;
+}
+.service_price_action h3 {
+  font-size: 24px;
+}
+.service_price_action {
+  padding-top: 10px;
+}
+.service_price_action h3 span {
+  color: #9b9b9b;
+  font-size: 16px;
+}
+/* Review & Rating */
+
+.rating_star {
+  width: fit-content;
+  padding: 3px 22px;
+  background: #f5f8fe;
+  border-radius: 50px;
+  margin: 0 auto 6px;
+}
+.rate_text {
+  color: #5b5555;
+  font-weight: 600;
+  margin-left: 12px;
+}
+.customer_ratings_inner p {
+  color: #5b5555;
+  text-align: center;
+  font-weight: 500;
+}
+.rating_wrapper h2 {
+  margin-bottom: 20px;
+}
+.star_count {
+  white-space: pre;
+  margin-right: 8px;
+}
+.rating_bars span {
+  font-weight: 600;
+  color: #5b5555;
+}
+.rating_bars {
+  margin: 0;
+  padding: 0;
+}
+.rating_bars li {
+  display: flex;
+  list-style: none;
+}
+.customer_title {
+  display: flex;
+  align-items: center;
+}
+.customer_title h4 {
+  color: #474545;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+.customer_title p {
+  margin: 0;
+  color: #909090;
+  font-size: 12px;
+  font-weight: 500;
+}
+.customer_title {
+  margin-bottom: 6px;
+}
+.customer_img {
+  margin-right: 12px;
+}
+.single_reviews_wrapper {
+  margin-bottom: 20px;
+}
+.reply_wrapper {
+  position: relative;
+}
+.reply_wrapper button:hover {
+  color: #fff;
+  background-color: #4eac56;
+}
+.reply_wrapper button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(-4px, 4px);
+  font-weight: 600;
+  color: #276778f7;
+  border-radius: 5px !important;
+  font-size: 16px;
+  transition: 0.3s all;
+}
+.reply_wrapper input {
+  height: 40px;
+}
+
+/* Service Gallery */
+.service_gallery_wrapper {
+  margin-bottom: 40px;
+}
+.service_gallery_image {
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.service_gallery_image_wrapper {
+  height: 240px;
+}
+
+/* Instruction */
+.service_details_instruc span {
+  display: block;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Lexend";
+  margin-top: 10px;
+}
+
+.contact_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.store_day img {
+  width: 18px;
+  margin-right: 6px;
+}
+
+.store_day span {
+  font-size: 13px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #7a7676;
+  font-weight: 400;
+}
+
+.store_timing {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #7a7676;
+  font-weight: 400;
+}
+.store_day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3.StoreDetails_service_price__f847D,
+h3.StoreDetails_service_price__f847D span {
+  font-size: 16px !important;
+}
+
+.service_detail_card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service_card_detail {
+  /* display: flex !important; */
+  width: 64%;
+  padding: 15px;
+}
+.service_details_instruc {
+  font-size: 14px;
+  color: #878787 !important;
+}
+span.card_span {
+  font-size: 14px;
+  color: #878787;
+}
+
+.card_tittle {
+  color: #000;
+  font-size: 14px;
+}
+
+.card_wrapper {
+  height: 100%;
+}
+
+.service_tag
+  {
+    font-size: 12px;
+    background-color: #f2f3f5;
+    padding: 10px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    float: left;
+    width: -moz-max-content;
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+
+.service_add_image {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service_add_image h4 {
+  color: rgb(78 78 78);
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.service_details_section {
+  width: 100%;
+}
