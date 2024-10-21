@@ -1,4 +1,10 @@
+# Next.js Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Note on Git History
+
+⚠️ Please note that this repository was initialized after project development, with files being added via bulk upload. As a result, the detailed commit history of the development process is not available in this repository. Future updates and changes will be properly tracked through Git version control.
 
 ## Getting Started
 
